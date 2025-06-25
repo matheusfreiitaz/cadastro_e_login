@@ -3,9 +3,11 @@
 **Bem-vindo ao meu portfólio!**  
 Um site responsivo criado para mostrar meus projetos, habilidades e contato. Desenvolvido com HTML, CSS e JavaScript.
 
-🔗 **Acesse aqui**: [Link do GitHub Pages](https://matheusfreiitaz.github.io/portifolio/)  
+🔗 **Acesse aqui**: https://matheusfreiitaz.github.io/portifolio/
 
-![Preview do Portfólio](assets/img/portfolio.png) *[Se quiser, adicione uma imagem do projeto]*
+![image](https://github.com/user-attachments/assets/d2488391-0d87-4043-80a5-da2ae32841e3)
+![image](https://github.com/user-attachments/assets/92e50a9e-98a4-4961-86a9-47a207d0134d)
+
 
 
 ## 🛠️ Tecnologias Usadas
