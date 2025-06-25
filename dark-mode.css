@@ -1,0 +1,53 @@
+/**
+ * Dark Mode Styles
+ * Contém todas as variáveis e estilos para o tema escuro
+ */
+
+[data-theme="dark"] {
+  /* Cores base */
+  --color-bg: #121212;
+  --color-text: #e0e0e0;
+  --color-primary: #3a86ff;
+  --color-secondary: #8338ec;
+  
+  /* Componentes */
+  --color-header-bg: #1e1e1e;
+  --color-card-bg: #2d2d2d;
+  --color-border: #444;
+  
+  /* Efeitos */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+[data-theme="dark"] .header {
+  background-color: var(--color-header-bg);
+  box-shadow: var(--shadow-sm);
+}
+
+[data-theme="dark"] .section,
+[data-theme="dark"] .card,
+[data-theme="dark"] .project-card,
+[data-theme="dark"] .timeline-item {
+  background-color: var(--color-card-bg);
+  border-color: var(--color-border);
+}
+
+[data-theme="dark"] .btn-outline {
+  border-color: var(--color-text);
+  color: var(--color-text);
+}
+
+[data-theme="dark"] .btn-outline:hover {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+}
+
+[data-theme="dark"] .skill-bar .progress {
+  background-color: var(--color-primary);
+}
